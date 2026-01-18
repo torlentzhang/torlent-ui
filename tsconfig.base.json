@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // 输出目录
+    "target": "es2018", // 目标语言版本
+    "module": "esnext", // 模块系统
+    "baseUrl": ".", // 基础路径
+    "sourceMap": false, // 是否生成source map文件
+    "moduleResolution": "node", // 模块解析策略
+    "allowJs": false, // 是否允许编译js文件
+    "strict": true, // 是否开启严格模式
+    "noUnusedLocals": true, // 是否报告未使用的局部变量
+    "resolveJsonModule": true, // 是否解析json模块
+    "allowSyntheticDefaultImports": true, // 是否允许合成默认导入
+    "esModuleInterop": true, // 是否开启es模块互操作性
+    "removeComments": false, // 是否移除注释
+    "rootDir": ".", // 根目录
+    "types": [], // 类型声明文件
+    // 路径映射
+    "paths": {
+      /* ================= 主入口 ================= */
+      "@torlent-ui/ui": ["packages/ui/src"],
+      "@torlent-ui/ui/*": ["packages/ui/src/*"],
+      /* ================= 子能力包 ================= */
+      "@torlent-ui/components": ["packages/components/src"],
+      "@torlent-ui/components/*": ["packages/components/src/*"],
+      "@torlent-ui/hooks": ["packages/hooks/src"],
+      "@torlent-ui/hooks/*": ["packages/hooks/src/*"],
+      "@torlent-ui/utils": ["packages/utils/src"],
+      "@torlent-ui/utils/*": ["packages/utils/src/*"],
+      "@torlent-ui/style": ["packages/style/src"],
+      "@torlent-ui/directives": ["packages/directives/src"],
+      "@torlent-ui/constants": ["packages/constants/src"]
+    },
+    "preserveSymlinks": true // 是否保留符号链接
+  }
+}

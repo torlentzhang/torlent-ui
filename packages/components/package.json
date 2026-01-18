@@ -1,0 +1,29 @@
+{
+  "name": "@torlent-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "license": "ISC",
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.22"
+  },
+  "dependencies": {
+    "@torlent-ui/constants": "workspace:*",
+    "@torlent-ui/directives": "workspace:*",
+    "@torlent-ui/hooks": "workspace:*",
+    "@torlent-ui/style": "workspace:*",
+    "@torlent-ui/utils": "workspace:*",
+    "element-plus": "^2.13.1"
+  }
+}

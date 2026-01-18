@@ -1,0 +1,20 @@
+{
+  "name": "@torlent-ui/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@torlent-ui/components": "workspace:*",
+    "@torlent-ui/hooks": "workspace:*",
+    "@torlent-ui/utils": "workspace:*",
+    "@torlent-ui/style": "workspace:*",
+    "@torlent-ui/directives": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.22"
+  },
+  "license": "ISC"
+}

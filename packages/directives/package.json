@@ -1,0 +1,7 @@
+{
+  "name": "@torlent-ui/directives",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "license": "ISC"
+}
