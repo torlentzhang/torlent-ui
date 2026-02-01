@@ -22,7 +22,7 @@ export default defineConfig({
     en: {
       label: 'English',
       lang: 'en-US',
-      themeConfig:enThemeConfig.enThemeConfig
+      themeConfig: enThemeConfig.enThemeConfig,
     },
   },
   themeConfig: {
@@ -39,6 +39,10 @@ export default defineConfig({
           { text: 'Markdown 示例', link: '/markdown-examples' },
           { text: '运行时 API 示例', link: '/api-examples' },
         ],
+      },
+      {
+        text: '基础组件',
+        items: [{ text: 'Button 按钮', link: '/components/base/tl-button/index.md' }],
       },
     ],
 

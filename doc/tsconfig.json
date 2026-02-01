@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext", // 目标语言版本
     "module": "ESNext", // 模块系统
-    "moduleResolution": "Node", // 模块解析策略
+    "moduleResolution": "bundler", // 模块解析策略
     "resolveJsonModule": true, // 允许导入 JSON 模块
     "allowSyntheticDefaultImports": true, // 允许合成默认导入
     "esModuleInterop": true, // 允许模块与 CommonJS 模块交互
@@ -11,6 +11,7 @@
     "noImplicitAny": false, // 不允许隐式的 any 类型
     "skipLibCheck": true, // 跳过库检查
     "lib": ["ESNext", "DOM"], // 包含的库文件
+    "types": ["vitepress/client"],
     "paths": {
       "torlent-ui": ["../packages/ui"], // 映射 torlent-ui 到 ../packages/ui
       "~/*": ["./.vitepress/vitepress/*"], // 映射 ~/* 到 ./.vitepress/vitepress/*

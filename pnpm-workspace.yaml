@@ -1,4 +1,7 @@
 packages:
-  - 'packages/*'
-  - 'doc'
+  - packages/*
+  - doc
 
+onlyBuiltDependencies:
+  - esbuild
+  - vue-demi
